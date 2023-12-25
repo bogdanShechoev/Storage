@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1394ee44ab8f4fa7b39cc30db7a82b13" Name="Diagram1">
+        <EntityTypeShape EntityType="StorageModel.Role" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="StorageModel.sysdiagram" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="StorageModel.User" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="StorageModel.FK_User_Role" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="StorageModel.Material" Width="1.5" PointX="3.375" PointY="4.125" />
+        <EntityTypeShape EntityType="StorageModel.Product" Width="1.5" PointX="5.625" PointY="4" />
+        <AssociationConnector Association="StorageModel.FK_Product_Material" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
